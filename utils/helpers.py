@@ -24,8 +24,8 @@ def get_dataset_info(dataset_path):
                 names.append(os.path.join(path, file))
         image_label_names.append(names)
 
-    assert len(image_label_names[0]) == len(image_label_names[1])
-    assert len(image_label_names[2]) == len(image_label_names[3])
+    #assert len(image_label_names[0]) == len(image_label_names[1])
+    #assert len(image_label_names[2]) == len(image_label_names[3])
 
     return image_label_names
 
